@@ -1,3 +1,12 @@
 {
-  "extends": "@react-native/typescript-config"
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["react", "react-native"]
+  }
 }
